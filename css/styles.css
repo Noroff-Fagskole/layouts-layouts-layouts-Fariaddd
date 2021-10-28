@@ -1,0 +1,47 @@
+:root {
+  --brand-dark-gray: #f0f0f0;
+  --bran-light-gray: #f6f6f6;
+  --bran-turquise: #c5f5fa;
+  --bran-white: #fff;
+  --bran-blak: #000;
+  --brann-red: #ff5b5a;
+  --container-width: 1170px;
+}
+
+body {
+  background-color: var(--bran-white);
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+
+.app-header {
+  background-color: var(--bran-light-gray);
+}
+.flex-it {
+  display: flex;
+  justify-content: space-between;
+}
+a:link,
+a:visited {
+  color: var(--bran-black);
+  text-decoration: none;
+}
+
+.account-nav li,
+.main-navigation li .brand-crumb li {
+  list-style: none;
+}
+.account-nav li,
+.main-navigation li {
+  display: inline-block;
+}
+
+.app-body {
+  background-color: var(--bran-light-gray);
+}
+.logo {
+  width: 20px;
+}
